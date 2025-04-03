@@ -27,7 +27,7 @@ if quantidade < 12 :
 else :
     print(f"Sua compra ficou no valor de R${0.25 * quantidade}")
 
-#Ex 5
+
 #Ex 5
 n1 = int(input("Diga um número.\n->"))
 n2 = int(input("Diga outro número.\n->"))
@@ -63,6 +63,26 @@ if n3 < menor:
     menor = n3
 meio = n1 + n2 + n3 - menor - maior
 print(n1,n2,n3)
+
+#Outra forma de resolver
+a = int(input("Diga um número.\n->"))
+b = int(input("Diga outro número.\n->"))
+c = int(input("Diga mais um número.\n->"))
+print(a,b,c)
+if a > b:
+    aux = a 
+    a = b 
+    b = aux
+    print(a,b,c)
+if b > c:
+    aux = b
+    b = c 
+    c = aux
+    print(a,b,c)
+if a > b:
+    a = b
+    b = aux
+    print(a,b,c)
 
 
 #Ex 6
