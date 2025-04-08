@@ -1,0 +1,61 @@
+/* div{
+    /* propriedades decorativas */
+    /* border: solid 1px black;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial; */
+
+    /* propwiedades que fazem o "problema" */
+    /* width: 100px;
+    height: 110px; */
+
+    /* corrigindo o "problema" */
+    /* overflow: hidden;
+} */ 
+
+/* div{
+    border: dotted 5px black;
+    width: 300px;
+    height: 200px;
+    font-size: 32px;
+    font-family: Arial;
+    
+
+    margin: 5px 8px;
+    padding: 6px 9px;
+
+    overflow: scroll;
+} */
+
+/* p{
+    é um elemento em bloco que convertido para linha
+    display: inline;
+    background-color: yellow;
+} */
+
+/* span{
+    é um elemento em linha que convertido para bloco
+    display: block;
+    background-color: aqua;
+} */
+
+/* p{
+    font-size: 35px;
+}
+
+div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.azul{
+    border: solid 4px blue;
+}
+.amarelo{
+    border: solid 4px red;
+    background-color: yellow;
+    position: relative;
+    top: 40px;
+    left: 40px;
+} */
