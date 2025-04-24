@@ -82,3 +82,84 @@
 #         multiplicador += 1
 # else:
 #     print("Este número é inválido")
+
+
+#Ex 8
+# a = 0
+# b = 1
+# contador = 2
+
+# print("Termo 1:", a)
+# print("Termo 2:", b)
+
+# while contador <= 90:
+#     c = a + b
+#     print(f"Termo {contador + 1}: {c}")
+#     a = b
+#     b = c
+#     contador += 1
+
+
+#Ex 9
+# pares = ""
+# impares = ""
+
+# contador = 0
+# while contador < 10:
+#     num = int(input(f"Digite o {contador + 1}º número: "))
+    
+#     if num % 2 == 0:
+#         pares += str(num) + " "
+#     else:
+#         impares += str(num) + " "
+    
+#     contador += 1
+
+# print("\nNúmeros pares:", pares)
+# print("Números ímpares:", impares)
+
+
+#Ex 10
+# num = int(input("Digite um número inteiro para calcular o fatorial:\n-> "))
+
+# if num < 0:
+#     print("Fatorial não é definido para números negativos.")
+# else:
+#     fatorial = 1
+#     contador = 1
+
+#     while contador <= num:
+#         fatorial *= contador
+#         contador += 1
+
+#     print(f"O fatorial de {num} é {fatorial}")
+
+
+#Ex 11
+# num = int(input("Digite um número inteiro:\n-> "))
+# divisores = 0
+# contador = 1
+
+# while contador <= num:
+#     if num % contador == 0:
+#         divisores += 1
+#     contador += 1
+
+# if divisores == 2:
+#     print(f"{num} é um número primo.")
+# else:
+#     print(f"{num} não é um número primo.")
+
+
+#Ex 12
+# n = int(input("Quantas notas você quer informar?\n-> "))
+# soma = 0
+# contador = 0
+
+# while contador < n:
+#     nota = float(input(f"Digite a {contador + 1}ª nota:\n-> "))
+#     soma += nota
+#     contador += 1
+
+# media = soma / n
+# print(f"\nA média aritmética das {n} notas é: {media:2f}")
