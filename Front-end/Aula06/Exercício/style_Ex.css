@@ -1,0 +1,31 @@
+#cartao{
+    margin: 150px;
+    border: 2px solid black;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#cartao:hover{
+    background-color: aliceblue;
+    transform: scale(1.2);
+}
+
+button:hover{
+    color: blue;
+}
+
+div:first-child{
+    background-color: brown;
+}
+
+p::after{
+    content: "👍🙌";
+}
+
+h1:first-letter{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input:focus{
+    background-color: aliceblue;
+}
