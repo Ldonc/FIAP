@@ -1,0 +1,74 @@
+#grad {
+    background-image: linear-gradient(red, yellow);
+    /* background-image: radial-gradient(blue, green);do centro para fora */
+}
+
+
+div.vazio{
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}
+
+div.transform{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    background-color: red;
+}
+div.transform:hover{
+     transform: translate(10px, 20px);/* move o objeto de lugar ao colocar o cursor em cima*/
+    /* transform: rotate(30deg); valor positivo gira para a direita */
+    /* transform: rotate(-30deg); valor negativo gira para a esquerda */
+    /* transform: scale(1, 2); aumenta o objeto para os lados e para cima*/
+    /* transform: skew(20deg, 10deg); achata o objeto nos angulo X e Y*/
+}
+
+
+div.transition{
+    width: 100px;
+    height: 100px;
+    /* propriedade de duração */
+    transition: height 2s, width 1s;
+    background-color: yellow;
+}
+div.transition:hover{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    background-color: cyan;
+}
+
+
+h1{
+    animation: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+div.efeito{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: um_efeito;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-delay: 5s;
+}
+@keyframes um_efeito {
+    0% {width: 100px;}
+    25% {width: 300px;}
+    50% {width: 200px; background-color:red;}
+    75% {width: 300px;}
+    100% {width: 100px; background-color: green;}
+}

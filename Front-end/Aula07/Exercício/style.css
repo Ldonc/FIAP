@@ -1,0 +1,13 @@
+div.grad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(white 4%, blue 10%, yellow 40%,rgb(8, 107, 8) 80%);
+    width: 200px;
+    height: 200px;
+    color: aliceblue;
+}
+div.grad:hover{
+    transform: rotate(30deg) translate(700px, 100px) scale(1, 2) skew(20deg, 10deg);
+    transition: 2s;
+}
