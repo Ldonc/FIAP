@@ -171,16 +171,16 @@
 
 
 #Ex 8 outra ressolução
-a = 1
-b = 1
-print(a,b,end=" ")
-i = 2
-while i < 10:
-    c = a + b
-    print(c,end=" ")
-    a = b 
-    b = c
-    i += 1
+# a = 1
+# b = 1
+# print(a,b,end=" ")
+# i = 2
+# while i < 10:
+#     c = a + b
+#     print(c,end=" ")
+#     a = b 
+#     b = c
+#     i += 1
 
 
 #Ex 9
@@ -225,7 +225,7 @@ while i < 10:
 
 # while contador <= num:
 #     if num % contador == 0:
-#         divisores += 1
+#       divisores += 1
 #     contador += 1
 
 # if divisores == 2:
@@ -246,3 +246,98 @@ while i < 10:
 
 # media = soma / n
 # print(f"\nA média aritmética das {n} notas é: {media:2f}")
+
+
+# Ex 13
+# salario = 1000
+# ano = 1995
+# taxa = 0.015
+# while ano < 2000 :
+#     aumento = 1 + taxa
+#     salario *= aumento
+#     taxa *= 2
+#     ano += 1
+#     print(salario)
+
+
+#Ex 13 parte 2
+# i = 0
+# while i < 10:
+#     if i %2 == 1:
+#         i += 1
+#         continue
+#     print(i)
+#     i += 1
+
+
+#Ex 14
+# intervalo_1 = 0
+# intervalo_2 = 0
+# intervalo_3 = 0
+# intervalo_4 = 0
+#
+# while True:
+#     num = input("Diga um número:\n->")
+#     while not num.isnumeric():
+#         print("Inválido")
+#         num = input("Diga um número:\n->")
+#     num = int(num)
+#     if num < 25:
+#         intervalo_1 += 1
+#     elif num < 50:
+#         intervalo_2 += 1
+#     elif num < 75:
+#         intervalo_3 += 1
+#     elif num < 100:
+#         intervalo_4 += 1
+#     else:
+#         print("Número deve ser até 100")
+#         continue
+#     proxima = input("Quer continuar? (s/n)\n->")
+#     while not (proxima == "s" or proxima == "n"):
+#         proxima = input("Quer continuar? (s/n)\n->")
+#     if proxima == "n" :
+#         break
+
+
+#Ex 15
+# candidato_1 = 0
+# candidato_2 = 0
+# candidato_3 = 0
+# candidato_4 = 0
+# nulo = 0
+# branco = 0
+# votos_totais = 0
+# print("1 ------ Roberto\n2 ------ Dagmar\n3 ------ Claudio\n4 ------ Paulo\n5 ------ Nulo\n6 ------ Branco")
+# while True:
+#     voto = input("Em quem você gostaria de votar?\n->")
+#     if not (voto == '1' or voto == '2' or voto == '3' or voto == '4' or voto == '5' or voto == '6'):
+#         print("Candidato não identificado!!!")
+#         continue
+#     if voto == "1":
+#         candidato_1 += 1
+#     elif voto == "2":
+#         candidato_2 += 1
+#     elif voto == "3":
+#         candidato_3 += 1
+#     elif voto == "4":
+#         candidato_4 += 1
+#     elif voto == "5":
+#         nulo += 1
+#     else:
+#         branco += 1
+#     votos_totais += 1
+#     proxima = input("Quer continuar? (s/n)\n->")
+#     while not (proxima == "s" or proxima == "n"):
+#         proxima = input("Quer continuar? (s/n)\n->")
+#     if proxima == "n":
+#         break
+
+# print(f"Roberto teve {candidato_1} votos.")
+# print(f"Dagmar teve {candidato_2} votos.")
+# print(f"Claudio teve {candidato_3} votos.")
+# print(f"Paulo teve {candidato_4} votos.")
+# print(f"A votação teve {nulo} votos nulos")
+# print(f"A votação teve {branco} votos brancos")
+# print(f"A votação teve {nulo*100/votos_totais:.2f}% de votos nulos")
+# print(f"A votação teve {branco*100/votos_totais:.2f}% de votos brancos")
