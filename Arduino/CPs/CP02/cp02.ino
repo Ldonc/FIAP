@@ -62,7 +62,7 @@ void loop() {
     lcd.setCursor(0,0);
     lcd.print("Umi: ");
     lcd.setCursor(6,0);
-    lcd.print(temp);
+    lcd.print(umi);
     lcd.setCursor(0,1);
     lcd.print("Umidade OK");
     delay(3000);
@@ -93,7 +93,7 @@ void loop() {
     lcd.setCursor(6,0);
     lcd.print(lumi);
     lcd.setCursor(0,1);
-    lcd.print("Temperatura OK");
+    lcd.print("Lumino OK");
     delay(3000);
   }else if(lumi<40){
     lcd.clear();
