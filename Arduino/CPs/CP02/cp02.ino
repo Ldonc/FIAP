@@ -4,7 +4,7 @@
 #define dhtpin 2
 #define ldrpin A1
 
-DHT dht(dhtpin, DHT22);
+DHT dht(dhtpin, DHT11);
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 
